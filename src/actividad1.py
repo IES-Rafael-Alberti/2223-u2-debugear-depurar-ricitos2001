@@ -10,12 +10,6 @@ def argoritmo_burbuja(arreglo):
             listafinal=intercambio
             return listafinal
 if __name__=="__main__":
-    lista=[]
-    elementos = int(input("introduce un numero: "))
-    lista.append(elementos)
-    while elementos:
-        elementos = int(input("introduce un numero: "))
-        lista.append(elementos)
-    if elementos==0:
-        listafinal=argoritmo_burbuja(lista)
-        print(lista)
+    lista=[5, 3, 1, 2, 4]
+    argoritmo_burbuja(lista)
+    print(lista)
