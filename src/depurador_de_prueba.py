@@ -16,7 +16,7 @@ if __name__=="__main__":
         while numero > 0 or numero < 100:
             print("El número debe estar entre 1 y 100")
             numero = int(input("Dime un número del 1 al 100:"))
-            if numero in numero:
+            if numero in numeros:
                 print("El número está en la lista")
             else:
                 print("El número no está en la lista")
